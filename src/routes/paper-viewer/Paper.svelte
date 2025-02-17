@@ -21,7 +21,7 @@
 <!-- Sections -->
 {#each PAPER.sections as section}
   {#if section.questions.length > 0}
-    <section class="print:break-after-always mt-24 first:!mt-0">
+    <section class="print:break-after-always mb-20">
       <h3 class="text-center text-2xl font-bold">
         {section.subject}
         ({formatType(section["type"])})
