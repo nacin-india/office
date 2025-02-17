@@ -1,8 +1,7 @@
 <script>
-  import "../app.css";
   let { children } = $props();
 </script>
 
-<main>
+<main class="p-8 print:p-0">
   {@render children()}
 </main>
