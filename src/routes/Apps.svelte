@@ -10,8 +10,8 @@
       color: "#AB4ABA",
     },
     {
-      name: "Paper Viewer",
-      icon: "PV",
+      name: "Exam Paper Viewer",
+      icon: "EV",
       description: "View and download papers",
       link: "/paper-viewer",
       color: "#0090FF",
@@ -27,10 +27,12 @@
   }
 </script>
 
-<h2 class="text-gray-500 text-xs font-medium uppercase tracking-wide">Apps</h2>
+<h2 class="text-gray-500 mb-8 font-medium uppercase tracking-wide text-center">
+  Apps
+</h2>
 <section
   role="list"
-  class="mt-3 grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4"
+  class="mt-3 grid grid-cols-1 gap-5 sm:gap-6 sm:grid-cols-2 max-w-4xl mx-auto"
 >
   {#each APPS as app}
     <button
